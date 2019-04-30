@@ -53,9 +53,10 @@ form{
 @media only screen and(max-width: 768px){
   body{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/body-background-768-by-1070.png);
-    // background-repeat: no-repeat;
-    // background-size: 100% 100%;
-    // background-size: cover;
-    // background-repeat: no-repeat;
   }
+  
+.title{
+  margin-top: 80px;
+  letter-spacing: 3px;
+}
 }

@@ -10,6 +10,7 @@ form { margin-top: 40px; }
 form .go-btn { height: 3em; border-radius: 0 1em 1em 0; background-color: #4A6B31; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); color: #fff; border: none; }
 form .select-rsc { border-radius: 0.7em 0 0 0.7em; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); }
 
-@media only screen and (max-width: 768px) { body { background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/body-background-768-by-1070.png); } }
+@media only screen and (max-width: 768px) { body { background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/body-background-768-by-1070.png); }
+  .title { margin-top: 80px; letter-spacing: 3px; } }
 
 /*# sourceMappingURL=style.css.map */
