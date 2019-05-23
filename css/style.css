@@ -1,16 +1,102 @@
-body { margin: 0; padding: 0; background-size: cover; background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/background-image.png); }
+body {
+  font-family: 'Roboto', sans-serif !important;
+  color: #272727;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/background-image.png); }
 
-.logo { text-indent: -100000px; }
-.logo h2 { background-image: url("../photos/logo.png"); background-repeat: no-repeat; width: 120px; height: 60px; background-size: 100% 100%; margin: 20px; }
+.resource-main-body {
+  background-image: none; }
 
-.title { margin-top: 100px; letter-spacing: 4px; color: #AAAAAA; }
-.title .resource-text { color: #4A6B31; }
+.logo {
+  text-indent: -100000px; }
+  .logo h2 {
+    background-image: url("../photos/logo.png");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 60px;
+    background-size: 100% 100%;
+    margin: 20px; }
 
-form { margin-top: 40px; }
-form .go-btn { height: 3em; border-radius: 0 1em 1em 0; background-color: #4A6B31; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); color: #fff; border: none; }
-form .select-rsc { border-radius: 0.7em 0 0 0.7em; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); }
+.index-page-title {
+  margin-top: 100px;
+  letter-spacing: 4px;
+  color: #AAAAAA; }
+  .index-page-title .resource-text {
+    color: #4A6B31; }
 
-@media only screen and (max-width: 768px) { body { background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/body-background-768-by-1070.png); }
-  .title { margin-top: 80px; letter-spacing: 3px; } }
+form {
+  margin-top: 40px; }
+  form .go-btn {
+    height: 3em;
+    border-radius: 0 1em 1em 0;
+    background-color: #4A6B31;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border: none; }
+  form .select-rsc {
+    border-radius: 0.7em 0 0 0.7em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); }
+  form .section-label {
+    margin-top: 30px; }
+  form .submit-button {
+    background-color: #4A6B31;
+    border: none;
+    width: 30%;
+    margin-bottom: 50px; }
+    form .submit-button:hover {
+      background-color: #D6DE00; }
+
+.landing-page-form {
+  margin-top: 40px; }
+
+.select-resource-form {
+  margin: 20px; }
+
+.title-container {
+  background-color: #D6DE00;
+  padding: 10px 0 10px 0;
+  margin-bottom: 40px; }
+
+.resource-title {
+  letter-spacing: 6px;
+  text-align: center;
+  color: #fff; }
+
+.reservation-form-title {
+  font-size: 23px; }
+
+.reservation-form-tagline {
+  font-size: 12px;
+  margin-left: 10px; }
+
+#calendar-piece {
+  padding-top: 20px; }
+
+.form-type1 {
+  margin: 20px 0 0 30px; }
+  .form-type1 .form-check {
+    margin-top: 10px; }
+
+.facilities-header {
+  margin-top: 30px; }
+
+.facilities li {
+  margin-top: 15px;
+  list-style-image: url("../photos/Ellipse.png"); }
+
+.driver {
+  background-color: grey;
+  margin: 5px;
+  padding: 10px; }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../photos/body-background-768-by-1070.png); }
+
+  .title {
+    margin-top: 80px;
+    letter-spacing: 3px; } }
 
 /*# sourceMappingURL=style.css.map */

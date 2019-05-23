@@ -26,26 +26,29 @@
         </div>
         <div class="row">
             <div class="col" style="text-align: center">
-                <h1 class="title">BOOK A <span class="resource-text">RESOURCE</span></h1>
+                <h1 class="index-page-title">BOOK A <span class="resource-text">RESOURCE</span></h1>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <form>
+                <form class="landing-page-form">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3" style="text-align: center">
                             <div class="input-group mb-3">
-                                    <select class="custom-select custom-select-lg mb-3 select-rsc">     
-                                        <option selected>Select Options</option>    
-                                        <option value="Studio">Studio</option>
-                                        <option value="Conference room">Conference room</option>
-                                        <option value="Training room">Training room</option>
-                                        <option value="Bamboo bar">Bamboo bar</option>
-                                        <option value="Van">Van</option>
-                                        <option value="Transporters">Transporters</option>
-                                        <option value="Pick-up">Pick-up</option>
-                                        <option value="Table tennis court">Table tennis court</option>
-                                    </select>
+                                <select class="custom-select custom-select-lg mb-3 select-rsc">
+                                    <option selected>Select Options</option>
+                                    <option value="Studio">Studio</option>
+                                    <option value="Conference room">Conference room</option>
+                                    <option value="Training room">Training room</option>
+                                    <option value="Bamboo bar">Bamboo bar</option>
+                                    <option value="Pool car 1">Pool car 1</option>
+                                    <option value="Pool car 2">Pool car 2</option>
+                                    <option value="Abuja Pool car">Abuja Pool car</option>
+                                    <option value="Van">Van</option>
+                                    <option value="Transporters">Transporters</option>
+                                    <option value="Pick-up">Pick-up</option>
+                                    <option value="Table tennis court">Table tennis court</option>
+                                </select>
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-secondary go-btn" type="submit"
                                         id="button-addon2">GO!</button>
